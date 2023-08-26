@@ -1,0 +1,140 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Cambria', 'Times New Roman', Courier, monospace;
+}
+
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   /* height: auto; */
+}
+
+#content {
+   text-align: center;
+   margin: auto;
+   width: 50%;
+}
+
+.aboutBeasiswa {
+   padding: 2rem 0;
+   background-color: #fff;
+}
+
+.programBeasiswa {
+   padding: 2rem 0;
+   background-color: #f7f7f7;
+}
+
+.syaratBeasiswa {
+   padding: 2rem 0;
+   background-color: #fff;
+}
+
+.navbar {
+   background-color: #e9e9e9;
+}
+
+nav ul li:hover {
+   background-color: #919191;
+   border-radius: 5px;
+
+}
+
+.img-container img {
+   height: 600px;
+   width: 100%;
+   opacity: 0.8;
+   background-size: cover;
+   background-position: center;
+
+}
+
+.img-container {
+   position: relative;
+   overflow: hidden;
+}
+
+.img-container {
+   background-image: url('../assets/images/grad.jpg');
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 500px;
+   color: white;
+   text-align: center;
+   padding-top: 200px;
+}
+
+.img-container p {
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   font-size: 2rem;
+   transform: translate(-50%, -50%);
+   color: white;
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 10px;
+   width: 80%;
+   text-align: center;
+}
+
+.form {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #f7f7f7;
+}
+
+select {
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+/* Gaya untuk <option> dalam <select> */
+option {
+   font-size: 14px;
+   padding: 8px;
+}
+
+.form-signin {
+   max-width: 400px;
+   padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+   z-index: 2;
+}
+
+.form-signin input[type="email"] {
+   margin-bottom: -1px;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+   margin-bottom: 10px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+}
+
+footer {
+   margin-top: 10px;
+   background-color: #e9e9e9;
+   padding: 25px;
+   text-align: center;
+}
+
+.card-body input {
+   margin: 5px;
+   border: 1px solid black;
+}
